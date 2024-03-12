@@ -1,0 +1,193 @@
+.chats-page {
+  margin: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.chats-block {
+  margin: 20px 20px 20px 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  .profile-block {
+    box-sizing: border-box;
+    background-color: white;
+    height: 100px;
+    padding-top: 5px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+
+    .profile-title-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .profile-title {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+
+  .search-block {
+    box-sizing: border-box;
+    background-color: white;
+    height: 50px;
+    margin-top: 10px;
+    padding: 5px 20px 0 20px;
+
+    input {
+      width: 100%;
+      font-size: 16px;
+      border: 0;
+      height: 30px;
+    }
+  }
+
+  .chats-list {
+    flex: 1;
+    box-sizing: border-box;
+    background-color: white;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 0 10px;
+
+    .chats-item {
+      display: flex;
+      flex-direction: row;
+      height: 60px;
+      padding: 10px;
+
+      .chats-item-content {
+        flex: 1;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+
+        .chats-item-info {
+          flex: 1;
+          margin-top: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .chats-item-info-name {
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .chats-item-info-time {
+            color: grey;
+          }
+        }
+
+        .chats-item-message {
+          flex: 1;
+          margin-top: 10px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          .chats-item-message-text {
+            flex: 0.95;
+            color: grey;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+
+          .chats-item-message-not-viewed-sign {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #c0f507;
+          }
+        }
+      }
+    }
+
+    .chats-item:hover {
+      background-color: #f6f6a3;
+      cursor: pointer;
+    }
+  }
+}
+
+.messages-block {
+  padding: 10px;
+  margin: 20px 0 20px 20px;
+  flex: 1;
+  box-sizing: border-box;
+  min-width: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+  .opponent-profile-block {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 10px;
+
+    .opponent-name-wrapper {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .opponent-name {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .messages-list {
+    flex: 1;
+    box-sizing: border-box;
+    background-color: white;
+    overflow-y: auto;
+
+    .messages-item {
+      margin-top: 10px;
+      display: flex;
+
+      .message-content {
+        padding: 5px;
+        width: 45%;
+      }
+
+      .message-time {
+        display: block;
+        text-align: right;
+      }
+    }
+
+    .incoming-message {
+      justify-content: start;
+    }
+
+    .outgoing-message {
+      justify-content: end;
+    }
+  }
+}

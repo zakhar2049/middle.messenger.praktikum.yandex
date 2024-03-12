@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+#app {
+  box-sizing: border-box;
+  background-color: #f6f6a3;
+  height: 100%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+  font-family: sans-serif;
+
+  li {
+    padding: 5px;
+  }
+}
+
+.app-border {
+  border: 5px solid lightgrey;
+  border-radius: 20px;
+}
+
+.underline {
+  background-color: lightgrey;
+  height: 5px;
+  border-radius: 3px;
+}
+
+.vertical-border {
+  background-color: lightgrey;
+  width: 5px;
+  border-radius: 3px;
+}
+
+.button {
+  font-weight: bold;
+  width: 300px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.green-background {
+  background-color: #c0f507;
+}
+
+.button.green-background:hover {
+  background-color: #96bf08;
+}
+
+.button.green-background:active {
+  background-color: #c0f507;
+}
+
+.red-background {
+  background-color: lightpink;
+}
+
+.button.red-background:hover {
+  background-color: #cb919a;
+}
+
+.button.red-background:active {
+  background-color: lightpink;
+}
+
+.form-page {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 800px;
+  width: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100%;
+
+  .form-label {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .input-wrapper {
+    margin-bottom: 20px;
+  }
+
+  .input-label {
+    font-size: 12px;
+    color: grey;
+  }
+
+  .input-value {
+    font-size: 16px;
+    width: 100%;
+    border: 0;
+  }
+
+  .buttons-block {
+    margin-bottom: 40px;
+  }
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 800px;
+  width: 600px;
+
+  .error-title {
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .error-button {
+    margin-bottom: 120px;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
