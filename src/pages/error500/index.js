@@ -10,4 +10,3 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.replace("chats.html");
     }
 });
-
