@@ -7,6 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const backToChatsButton = document.getElementById('back-button');
     backToChatsButton.onclick = () => {
-        window.location.replace("chats.html");
+        window.location.replace("../chats/chats.html");
     }
 });

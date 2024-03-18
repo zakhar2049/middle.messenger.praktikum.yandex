@@ -14,12 +14,12 @@ export default defineConfig({
         rollupOptions: {
             input: [
                 resolve(__dirname, 'src/index.html'),
-                resolve(__dirname, 'src/authorization.html'),
-                resolve(__dirname, 'src/chats.html'),
-                resolve(__dirname, 'src/error404.html'),
-                resolve(__dirname, 'src/error500.html'),
-                resolve(__dirname, 'src/profile.html'),
-                resolve(__dirname, 'src/registration.html'),
+                resolve(__dirname, 'src/pages/authorization/authorization.html'),
+                resolve(__dirname, 'src/pages/chats/chats.html'),
+                resolve(__dirname, 'src/pages/error404/error404.html'),
+                resolve(__dirname, 'src/pages/error500/error500.html'),
+                resolve(__dirname, 'src/pages/profile/profile.html'),
+                resolve(__dirname, 'src/pages/registration/registration.html'),
             ],
         },
     },

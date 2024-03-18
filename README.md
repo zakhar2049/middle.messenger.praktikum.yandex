@@ -17,12 +17,12 @@
 
 Страницы в проекте:
 [Список страниц](src/index.html),
-[Авторизация](src/authorization.html),
-[Регистрация](src/registration.html),
-[Профиль](src/profile.html),
-[404](src/error404.html),
-[500](src/error500.html),
-[Чаты](src/chats.html).
+[Авторизация](src/pages/authorization/authorization.html),
+[Регистрация](src/pages/registration/registration.html),
+[Профиль](src/pages/profile/profile.html),
+[404](src/pages/error404/error404.html),
+[500](src/pages/error500/error500.html),
+[Чаты](src/pages/chats/chats.html).
 
 Команды:
 

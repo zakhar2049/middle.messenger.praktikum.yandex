@@ -1,3 +1,5 @@
+@import "../../consts/consts";
+
 .chats-page {
   margin: 0 20px;
   width: 100%;
@@ -24,7 +26,7 @@
 
   .profile-block {
     box-sizing: border-box;
-    background-color: white;
+    background-color: $backgroundNotMainColor;
     height: 100px;
     padding-top: 5px;
     padding-left: 5px;
@@ -47,7 +49,7 @@
 
   .search-block {
     box-sizing: border-box;
-    background-color: white;
+    background-color: $backgroundNotMainColor;
     height: 50px;
     margin-top: 10px;
     padding: 5px 20px 0 20px;
@@ -63,7 +65,7 @@
   .chats-list {
     flex: 1;
     box-sizing: border-box;
-    background-color: white;
+    background-color: $backgroundNotMainColor;
     overflow-y: auto;
     margin-top: 10px;
     padding: 0 10px;
@@ -96,7 +98,7 @@
           }
 
           .chats-item-info-time {
-            color: grey;
+            color: $textColorDark;
           }
         }
 
@@ -109,7 +111,7 @@
 
           .chats-item-message-text {
             flex: 0.95;
-            color: grey;
+            color: $textColorDark;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -119,14 +121,14 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background-color: #c0f507;
+            background-color: $notViewedPointerColor;
           }
         }
       }
     }
 
     .chats-item:hover {
-      background-color: #f6f6a3;
+      background-color: $backgroundMainColor;
       cursor: pointer;
     }
   }
@@ -138,7 +140,7 @@
   flex: 1;
   box-sizing: border-box;
   min-width: 200px;
-  background-color: white;
+  background-color: $backgroundNotMainColor;
   display: flex;
   flex-direction: column;
 
@@ -164,7 +166,7 @@
   .messages-list {
     flex: 1;
     box-sizing: border-box;
-    background-color: white;
+    background-color: $backgroundNotMainColor;
     overflow-y: auto;
 
     .messages-item {

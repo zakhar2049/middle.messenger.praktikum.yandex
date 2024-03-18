@@ -1,0 +1,26 @@
+const baseInput = `
+<li class="input-wrapper {{wrapperClassName}}">
+    {{#if labelClassName}}
+        <label class="{{labelClassName}}">
+            {{label}}
+        {{#if inputClassName}}
+                <input id="{{id}}" class="{{inputClassName}}" type="{{type}}" name="{{name}}" value="{{value}}">
+        {{else}}
+            <input id="{{id}}" class="input-value" type="{{type}}" name="{{name}}" value="{{value}}">
+        {{/if}}
+        </label>
+        <div class="underline"></div>
+    {{else}}
+        <label class="input-label">
+            {{label}}
+            {{#if inputClassName}}
+                <input id="{{id}}" class="{{inputClassName}}" type="{{type}}" name="{{name}}" value="{{value}}">
+            {{else}}
+                <input id="{{id}}" class="input-value" type="{{type}}" name="{{name}}" value="{{value}}">
+            {{/if}}
+        </label>
+        <div class="underline"></div>
+    {{/if}}
+</li>
+`;
+export default baseInput;

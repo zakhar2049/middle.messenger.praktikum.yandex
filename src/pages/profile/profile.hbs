@@ -1,0 +1,22 @@
+const profilePage = `
+<div id="profile-page" class="form-page app-border">
+    <form action="" method="POST" id="profile-form" class="form">
+        <div class="avatar-wrapper">
+            <input type="file" class="profile-avatar" id="profile-avatar-input">
+            <img width="100" height="100" alt="Аватар" src="{{userImg}}">
+            <label for="profile-avatar" class="avatar-label">{{firstName}} {{secondName}}</label>
+        </div>
+        <ul class="inputs-block">
+            {{#each inputs}}
+                {{> baseInput }}
+            {{/each}}
+        </ul>
+        <div class="buttons-block">
+            {{#each buttons}}
+                {{> baseButton }}
+            {{/each}}
+        </div>
+    </form>
+</div>
+`;
+export default profilePage;
