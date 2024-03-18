@@ -1,0 +1,33 @@
+@import "../../consts/consts";
+
+.button {
+  font-weight: bold;
+  width: 300px;
+  height: 60px;
+  margin-bottom: 10px;
+  cursor:pointer;
+}
+
+.green-background {
+  background-color: $buttonFirstMainColor;
+}
+
+.button.green-background:hover {
+  background-color: $buttonFirstHoverColor;
+}
+
+.button.green-background:active {
+  background-color: $buttonFirstMainColor;
+}
+
+.red-background {
+  background-color: $buttonSecondMainColor;
+}
+
+.button.red-background:hover {
+  background-color: $buttonSecondHoverColor;
+}
+
+.button.red-background:active {
+  background-color: $buttonSecondMainColor;
+}

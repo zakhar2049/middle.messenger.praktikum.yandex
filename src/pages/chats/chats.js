@@ -1,4 +1,4 @@
-import chatsPage from "./chats.tmpl";
+import chatsPage from "./chats.hbs";
 import Handlebars from "handlebars";
 import {tempChats, tempOpenedChat, tempProfile} from "../../consts/consts";
 import userImg from "../../img/user.png";
@@ -22,5 +22,3 @@ export default () => {
         userImg,
     });
 }
-
-

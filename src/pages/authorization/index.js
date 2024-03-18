@@ -9,12 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const authForm = document.getElementById('auth-form');
 
     regButton.onclick = () => {
-        window.location.replace("registration.html");
+        window.location.replace("../registration/registration.html");
     }
     authForm.onsubmit = (e) => {
         e.preventDefault();
         console.log('Отправка формы авторизации.');
     }
 });
-
-
