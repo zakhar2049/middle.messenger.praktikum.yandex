@@ -1,0 +1,18 @@
+const registrationPage = `
+<div id="registration-page" class="form-page app-border">
+    <form action="" method="POST" id="reg-form" class="form">
+        <h1 class="form-label">Регистрация</h1>
+        <ul class="inputs-block">
+            {{#each inputs}}
+                {{> baseInput }}
+            {{/each}}
+        </ul>
+        <div class="buttons-block">
+            {{#each buttons}}
+                {{> baseButton }}
+            {{/each}}
+        </div>
+    </form>
+</div>
+`;
+export default registrationPage;

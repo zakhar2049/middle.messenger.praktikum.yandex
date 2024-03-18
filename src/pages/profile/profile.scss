@@ -1,0 +1,27 @@
+.avatar-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar-label {
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile-avatar {
+  display: none;
+}
+
+.profile-input-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-input-value {
+  font-size: 16px;
+  border: 0;
+  text-align: right;
+  color: grey;
+}
