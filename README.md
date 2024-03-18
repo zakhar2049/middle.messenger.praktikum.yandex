@@ -7,12 +7,12 @@
 
 Проект развёрнут на netlify:
 [Список страниц](https://vocal-dango-d73cbd.netlify.app/),
-[Авторизация](https://vocal-dango-d73cbd.netlify.app/authorization),
-[Регистрация](https://vocal-dango-d73cbd.netlify.app/registration),
-[Профиль](https://vocal-dango-d73cbd.netlify.app/profile),
-[404](https://vocal-dango-d73cbd.netlify.app/error404),
-[500](https://vocal-dango-d73cbd.netlify.app/error500),
-[Чаты](https://vocal-dango-d73cbd.netlify.app/chats).
+[Авторизация](https://vocal-dango-d73cbd.netlify.app/pages/authorization/authorization),
+[Регистрация](https://vocal-dango-d73cbd.netlify.app/pages/registration/registration),
+[Профиль](https://vocal-dango-d73cbd.netlify.app/pages/profile/profile),
+[404](https://vocal-dango-d73cbd.netlify.app/pages/error404/error404),
+[500](https://vocal-dango-d73cbd.netlify.app/pages/error500/error500),
+[Чаты](https://vocal-dango-d73cbd.netlify.app/pages/chats/chats).
 
 
 Страницы в проекте:
